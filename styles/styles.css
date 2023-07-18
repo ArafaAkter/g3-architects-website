@@ -183,6 +183,14 @@ nav  li a{
     width: 165px;
     
 }
+/* footer */
+footer{
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 1%;
+    margin: 60px 80px;
+}
 
 
 /* responsive media queries */
