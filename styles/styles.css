@@ -107,6 +107,9 @@ nav  li a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
     
 }
  .card{
@@ -135,13 +138,18 @@ nav  li a{
         padding: 20px;
     }
     nav,
-     .teams-container{
+     .teams-container,
+     .facts-card-container
+     {
         flex-direction: column;
     }
     .teams-img-container{
         grid-template-columns: 1fr;
         margin: auto;
         margin-top: 20px;
+    }
+    .facts-card-container{
+        gap: 20px;
     }
 }
 /* medium device */
@@ -159,6 +167,9 @@ nav  li a{
     .teams-container{
         margin-right: 70px;
 
+    }
+    .facts-card-container{
+        gap: 5px;
     }
 }
 
