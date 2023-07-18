@@ -120,11 +120,19 @@ nav  li a{
     background: #FF900E;
     color: white;
     border-radius: 8px;
-    width: 342px;
+    width: 340px;
     padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
 }
 .ten-years-badge h2{
     font-size: 4rem;
+}
+.img{
+
+    margin-left: 50px;
+
 }
 
 
@@ -186,18 +194,28 @@ nav  li a{
     nav,
      .teams-container,
      .facts-card-container,
-     .sponsors-img-container
+     .sponsors-img-container,
+      .features
      {
         flex-direction: column;
     }
     .teams-img-container{
         grid-template-columns: 1fr;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 20px;        
     }
-    .facts-card-container{
-        gap: 20px;
+    .img 
+    {
+       max-width: 120%;
+        margin-left: 0;
     }
+    .ten-years-badge{
+        max-width: 300px;
+        margin-right: 50px;
+        
+    }
+    
+    
 
 }
 /* medium device */
@@ -209,7 +227,8 @@ nav  li a{
     
     nav,
     .teams-container,
-    .sponsors-img-container 
+    .sponsors-img-container,
+    .features 
     {
         flex-direction: column;
     }
